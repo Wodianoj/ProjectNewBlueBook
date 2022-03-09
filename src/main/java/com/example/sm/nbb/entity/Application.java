@@ -56,7 +56,7 @@ public class Application {
     private User newUser;
 
     @OneToOne(cascade = DETACH)
-    @JoinColumn(name = "RESOLVED_BY", referencedColumnName = "USER_ID")
+    @JoinColumn(name = "RESOLVED_BY_ID", referencedColumnName = "USER_ID")
     private User resolvedBy;
 
     @OneToOne(cascade = DETACH)
