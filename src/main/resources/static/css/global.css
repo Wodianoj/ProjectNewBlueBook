@@ -1,0 +1,18 @@
+body {
+    background: black;
+}
+
+h1 {
+    font-family: 'Codystar', cursive;
+    font-weight: bold;
+    font-size: 2em;
+    color: yellow;
+}
+
+.carousel-caption {
+  text-shadow: 0 0 6px #000000;
+}
+
+form {
+    color: white;
+}
